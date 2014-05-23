@@ -44,7 +44,7 @@ class AppControllerClient():
 
   # The max number of seconds we should wait for when waiting for the
   # UserAppServer to start up. We'll give up after this.
-  MAX_RETRIES = 100
+  MAX_RETRIES = 200
 
 
   # The message that an AppController can return if callers do not authenticate
